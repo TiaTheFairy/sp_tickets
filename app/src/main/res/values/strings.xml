@@ -7,11 +7,32 @@
     <string name="ticket_state_waiting">Ticket Awaiting</string>
     <string name="ticket_state_expired">Ticket Expired</string>
     <string name="ticket_state_claimed">Ticket Claimed</string>
-    <string name="ticket_state_time">Ending in </string>
+    <string name="ticket_state_time">Ends in </string>
     <string name="ticket_claim">Claim Now</string>
-    <string name="ticket_position_1">暨南大学珠海校区北门菜鸟驿站</string>
-    <string name="ticket_position_2">北门外卖架</string>
-    <string name="ticket_position_3">暨南大学珠海校区校内菜鸟驿站</string>
+    <string name="ticket_location_1">暨南大学珠海校区北门菜鸟驿站</string>
+    <string name="ticket_location_2">北门外卖架</string>
+    <string name="ticket_location_3">暨南大学珠海校区校内菜鸟驿站</string>
 
     <string name="ticket_new_title">Creating Ticket</string>
+    <string name="ticket_new_type">Ticket Type: </string>
+    <string name="ticket_new_type_delivery">Delivery</string>
+    <string name="ticket_new_type_takeout">Takeout</string>
+    <string name="ticket_new_location">Location: </string>
+    <string name="ticket_new_location_hint">Input original location</string>
+    <string name="ticket_new_time">Padding Time: </string>
+    <string name="ticket_new_time_hint">Max time to expire</string>
+    <string name="ticket_new_tip">Tip: </string>
+    <string name="ticket_new_tip_hint">Tip in ￥</string>
+    <string name="ticket_new_message">Are you sure to create this ticket?</string>
+    <string name="ticket_new_dialogtitle">Two-Step Confirmation</string>
+    <string name="ticket_new_create">Create</string>
+    <string name="ticket_new_cancel">Cancel</string>
+    <string name="ticket_new_notFill">Please fill all blanks</string>
+    <string name="ticket_new_created">You created a ticket!</string>
+
+    <string name="ticket_claim_message">Are you sure to claim this ticket?</string>
+    <string name="ticket_claim_title">Two-Step Confirmation</string>
+    <string name="ticket_claim_yes">Claim</string>
+    <string name="ticket_claim_no">Cancel</string>
+    <string name="ticket_claim_claim">You claimed this ticket!</string>
 </resources>

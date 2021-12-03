@@ -11,7 +11,8 @@
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/tickets_recyclerView"

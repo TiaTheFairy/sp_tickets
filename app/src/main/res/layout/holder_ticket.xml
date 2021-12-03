@@ -21,10 +21,10 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/icon_notfound"
-            android:layout_marginEnd="30dp"/>
+            android:layout_marginEnd="10dp"/>
 
         <LinearLayout
-            android:layout_width="120dp"
+            android:layout_width="160dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -85,13 +85,13 @@
 
         <TextView
             android:id="@+id/tickets_location"
-            android:layout_width="240dp"
+            android:layout_width="265dp"
             android:layout_height="wrap_content"
-            android:text="@string/ticket_position_1"
+            android:text="@string/ticket_location_1"
             android:textSize="17sp"/>
 
         <TextView
-            android:layout_width="70dp"
+            android:layout_width="56dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:text="@string/ticket_state_time"
