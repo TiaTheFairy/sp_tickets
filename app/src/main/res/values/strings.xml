@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">sp_tickets</string>
+
+    <string name="ticket_type_delivery">Delivery</string>
+    <string name="ticket_type_takeout">Takeout</string>
+    <string name="ticket_income">Income</string>
+    <string name="ticket_state_waiting">Ticket Awaiting</string>
+    <string name="ticket_state_expired">Ticket Expired</string>
+    <string name="ticket_state_claimed">Ticket Claimed</string>
+    <string name="ticket_state_time">Ending in </string>
+    <string name="ticket_claim">Claim Now</string>
+    <string name="ticket_position_1">暨南大学珠海校区北门菜鸟驿站</string>
+    <string name="ticket_position_2">北门外卖架</string>
+    <string name="ticket_position_3">暨南大学珠海校区校内菜鸟驿站</string>
+
+    <string name="ticket_new_title">Creating Ticket</string>
+</resources>

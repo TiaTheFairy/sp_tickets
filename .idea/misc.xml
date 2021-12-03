@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/sp_tickets/app/src/main/res/layout/activity_main.xml" value="0.13576494427558258" />
+        <entry key="..\:/Android/sp_tickets/app/src/main/res/layout/fragment_tickets.xml" value="0.1" />
+        <entry key="..\:/Android/sp_tickets/app/src/main/res/layout/holder_ticket.xml" value="0.25" />
+        <entry key="..\:/System/Desktop/class/softwareprogramming/sp_tickets-master/app/src/main/res/layout/fragment_tickets.xml" value="0.24270833333333333" />
+        <entry key="..\:/System/Desktop/class/softwareprogramming/sp_tickets-master/app/src/main/res/layout/holder_ticket.xml" value="0.3171875" />
+        <entry key="..\:/System/Desktop/class/softwareprogramming/sp_tickets-master/app/src/main/res/layout/ticket_new.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

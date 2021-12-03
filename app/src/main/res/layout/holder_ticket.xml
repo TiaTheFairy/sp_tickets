@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/ticket_cutline"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/icon_notfound"
+            android:layout_marginEnd="30dp"/>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tickets_type"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ticket_type_delivery"
+                android:textSize="28sp"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/tickets_state"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/ticket_state_waiting"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ticket_income"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tickets_income"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:text="3.00"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tickets_claim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ticket_claim"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tickets_location"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ticket_position_1"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/ticket_state_time"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/tickets_duration"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="15min"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
